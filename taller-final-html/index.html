@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!---DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 
+<body>
+    <div include-html="components/nav-bar.html"></div>
+    <div include-html="components/aside.html"></div>
+    
+    
+    
+</body>
+
+</html--->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Sitio Web</title>
+  <link rel="stylesheet" href="styles/nav-styles.css">
+  <link rel="stylesheet" href="styles/aside-styles.css">
+  <link rel="stylesheet" href="styles/main-styles.css">
+</head>
 <body>
     <header>
         <nav>
@@ -19,7 +37,9 @@
             </ul>
         </nav>
     </header>
-    <aside class="sidebar" id="sidebar-1" style="background-color: lightgray; padding: 20px;" title="Información adicional">
+
+  
+    <aside>
         <h3>Artículos relacionados</h3>
         <ul>
           <li><a href="#">Artículo 1</a></li>
@@ -33,7 +53,9 @@
           <li><a href="#">Artículo 3</a></li>
         </ul>
     </aside>
-    
-</body>
 
+    <footer>
+        <h3>Pie de página - Derechos reservados © 2023</h3>
+    </footer>  
+</body>
 </html>
