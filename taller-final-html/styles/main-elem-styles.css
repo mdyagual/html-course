@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background: rgba(0,0,0.7);
+    width: 100%;
+    overflow: hidden;
+    margin-top: auto;
+    
+ 
+}
+
+footer h3{
+    color: white;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5%;
+}
